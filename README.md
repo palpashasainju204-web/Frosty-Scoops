@@ -1,2 +1,2 @@
-# Frossty-Scoops
+# Frosty-Scoops
 A website development
