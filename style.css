@@ -10,7 +10,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     background-color: #fffaf7;
     color: #493b39;
-    padding-top: 110px;
+    padding-top: 85px;
     font-size: 16px;
 }
 h1, h2, h3, h4, h5
@@ -46,8 +46,9 @@ p { font-size: 15px;
 .navbar 
 {
     background: #fff0f3 !important;
-    padding: 8px 0 !important;
-    min-height: 70px;
+    height: 85px !important;
+    padding: 0 !important;
+    min-height: 85px !important;
     box-shadow: 0 4px 15px rgba(120, 50, 65, 0.12);
     border-bottom: 2px solid #f8d5df;
 }
