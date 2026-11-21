@@ -1,0 +1,543 @@
+/* =========================
+   GENERAL STYLING
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fffaf7;
+    color: #493b39;
+    padding-top: 110px;
+    font-size: 17px;
+}
+h1, h2, h3, h4, h5
+{
+    font-family: 'Playfair Display', serif;
+}
+p { font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.section-space 
+{
+    padding: 85px 0;
+}
+.section-tag 
+{
+    color: #df6682;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.section-heading 
+{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 12px 0 20px;
+    color: #493b39;
+}
+
+/* =========================
+   NAVIGATION BAR
+========================= */
+.navbar 
+{
+    background: #fff0f3 !important;
+    padding: 22px 0 !important;
+    min-height: 110px;
+    box-shadow: 0 4px 15px rgba(120, 50, 65, 0.12);
+    border-bottom: 2px solid #f8d5df;
+}
+.navbar-brand 
+{
+    font-family: 'Pacifico', cursive !important;
+    font-size: 33px !important;
+    font-weight: 400 !important;
+    color: #c74768 !important;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.brand-name 
+{
+    font-family: 'Pacifico', cursive !important;
+    font-weight: 400 !important;
+    color: #c74768 !important;
+}
+.brand-icon 
+{
+    font-size: 28px;
+    margin-right: 5px;
+}
+.navbar-nav .nav-link 
+{
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    color: #633b43 !important;
+    padding: 14px 19px !important;
+    margin: 0 5px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+.navbar-nav .nav-link i 
+{
+    font-size: 21px !important;
+    margin-right: 9px;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active 
+{
+    background: #df6682 !important;
+    color: white !important;
+}
+.navbar-nav .nav-link:hover 
+{
+    transform: translateY(-3px);
+}
+.navbar-toggler 
+{
+    border: 2px solid #df6682 !important;
+    padding: 10px 13px !important;
+    border-radius: 10px;
+}
+.navbar-toggler-icon 
+{
+    width: 28px;
+    height: 28px;
+}
+/* =========================
+   HERO SECTION
+========================= */
+.hero 
+{
+    min-height: 610px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(40, 24, 25, 0.75),
+            rgba(40, 24, 25, 0.15)
+        ),
+        url("https://images.unsplash.com/photo-1563805042-7684c019e1cb");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 9%;
+}
+.hero-content 
+{
+    max-width: 650px;
+    color: white;
+}
+.hero-tag 
+{
+    display: inline-block;
+    background: #df6682;
+    padding: 9px 18px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.hero h1 
+{
+    font-size: 65px;
+    font-weight: 800;
+    margin: 25px 0;
+    line-height: 1.15;
+}
+.hero h1 span 
+{
+    color: #ffb8c9;
+}
+.hero p 
+{
+    font-size: 17px;
+    max-width: 500px;
+    color: #fff;
+}
+.hero-buttons 
+{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+.hero-price 
+{
+    margin-top: 25px;
+    font-size: 15px;
+}
+.hero-price i 
+{
+    color: #ffb8c9;
+}
+/* =========================
+   BUTTONS
+========================= */
+.btn-pink 
+{
+    background: #df6682;
+    color: white;
+    border: 2px solid #df6682;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.btn-pink:hover 
+{
+    background: #c84e6c;
+    border-color: #c84e6c;
+    color: white;
+    transform: translateY(-2px);
+}
+.btn-outline-light 
+{
+    border-radius: 30px;
+    padding: 12px 24px;
+}
+/* =========================
+   WELCOME SECTION
+========================= */
+.welcome-image 
+{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.welcome p 
+{
+    color: #756966;
+    margin-bottom: 18px;
+}
+/* =========================
+   FLAVOuRS SECTION
+========================= */
+.flavours-section 
+{
+    background: #fff0f2;
+}
+.section-title p 
+{
+    text-align: center;
+    color: #756966;
+}
+.flavour-card 
+{
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+.flavour-card:hover 
+{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.10);
+}
+.flavour-card img 
+{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.flavour-info 
+{
+    padding: 24px;
+}
+.flavour-info h4 
+{
+    font-size: 22px;
+    color: #493b39;
+}
+.flavour-info p 
+{
+    font-size: 17px;
+    color: #756966;
+}
+.flavour-info span 
+{
+    color: #df6682;
+    font-weight: 700;
+}
+.flavour-collection 
+{
+    background: #fffaf7;
+}
+/* =========================
+   FLAVORS PAGE BANNER
+========================= */
+.flavour-banner 
+{
+    background: #fbe2e8;
+    padding: 90px 20px;
+    margin-top: 0;
+}
+.flavour-banner span
+{
+    color: #df6682;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.flavour-banner h1
+{
+    font-size: 48px;
+    color: #493b39;
+    margin: 20px 0;
+}
+.flavour-banner p 
+{
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    color: #756966;
+}
+/* =========================
+   WHY CHOOSE US
+========================= */
+.why-card 
+{
+    background: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+.why-card i 
+{
+    font-size: 40px;
+    color: #df6682;
+}
+.why-card h4 
+{
+    margin: 20px 0 12px;
+    font-size: 22px;
+}
+.why-card p 
+{
+    text-align: center;
+    color: #756966;
+}
+/* =========================
+   SPECIAL OFFER
+========================= */
+.offer-section 
+{
+    padding: 80px 20px;
+    background: #df6682;
+    color: white;
+}
+.offer-section span 
+{
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.offer-section h2 
+{
+    font-size: 45px;
+    margin: 20px 0;
+    color: white;
+}
+.offer-section p 
+{
+    text-align: center;
+}
+.offer-section .btn 
+{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+/* =========================
+   FOOTER
+========================= */
+.footer 
+{
+    background: #302725;
+    color: white;
+    padding: 60px 0 20px;
+}
+.footer h3,
+.footer h5 
+{
+    color: #ffb8c9;
+    margin-bottom: 20px;
+}
+.footer p 
+{
+    color: #ddd0cd;
+    font-size: 16px;
+}
+.footer a 
+{
+    display: block;
+    text-decoration: none;
+    color: #ddd0cd;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.footer a:hover 
+{
+    color: #ffb8c9;
+}
+.footer-bottom 
+{
+    text-align: center;
+}
+.footer-bottom p 
+{
+    text-align: center;
+    margin: 0;
+}
+/* =========================
+   CONTACT PAGE
+========================= */
+.contact-section 
+{
+    padding: 80px 0;
+}
+.contact-info {
+    margin-top: 30px;
+}
+.contact-item 
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 25px;
+}
+.contact-item i 
+{
+    font-size: 25px;
+    color: #df6682;
+}
+.contact-item h5 
+{
+    margin-bottom: 5px;
+    color: #493b39;
+}
+.contact-item p 
+{
+    font-size: 17px;
+    margin: 0;
+    color: #756966;
+}
+.contact-form 
+{
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+.contact-form h3 
+{
+    margin-bottom: 25px;
+    color: #493b39;
+}
+.contact-form .form-control 
+{
+    padding: 12px;
+    border: 1px solid #ead8dc;
+    border-radius: 8px;
+}
+.contact-form .form-control:focus 
+{
+    border-color: #df6682;
+    box-shadow: 0 0 5px rgba(223, 102, 130, 0.25);
+}
+.error-message 
+{
+    display: block;
+    font-size: 15px;
+    color: #dc3545;
+    margin-top: 5px;
+}
+.success-message 
+{
+    color: #198754;
+    margin-top: 15px;
+    text-align: left;
+}
+/* =========================
+   ABOUT AND MENU PAGES
+========================= */
+.pink-text,
+.value-icon,
+.menu-icon,
+.menu-price 
+{
+    color: #df6682;
+}
+.light-pink-section 
+{
+    background: #fff0f3;
+}
+.mission-text 
+{
+    max-width: 750px;
+}
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+@media (max-width: 768px) 
+{
+    body {
+        padding-top: 90px;
+    }
+    .navbar {
+        min-height: 90px;
+    }
+    .navbar-brand {
+        font-size: 25px !important;
+    }
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        padding: 10px 0 !important;
+    }
+    .hero {
+        min-height: 520px;
+        padding: 60px 25px;
+    }
+    .hero h1 {
+        font-size: 43px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .section-space {
+        padding: 55px 0;
+    }
+    .section-heading {
+        font-size: 30px;
+    }
+    .welcome-image {
+        height: 300px;
+    }
+    .offer-section h2 {
+        font-size: 34px;
+    }
+    .flavour-banner {
+        padding: 65px 15px;
+    }
+    .flavor-banner h1 {
+        font-size: 35px;
+    }
+    .contact-section {
+        padding: 55px 0;
+    }
+    .contact-form {
+        padding: 25px;
+    }
+}
