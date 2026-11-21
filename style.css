@@ -46,7 +46,7 @@ p { font-size: 15px;
 .navbar 
 {
     background: #fff0f3 !important;
-    padding: 14px 0 !important;
+    padding: 12px 0 !important;
     min-height: 90px;
     box-shadow: 0 4px 15px rgba(120, 50, 65, 0.12);
     border-bottom: 2px solid #f8d5df;
