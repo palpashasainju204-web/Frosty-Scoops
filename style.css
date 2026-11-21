@@ -11,13 +11,13 @@ body {
     background-color: #fffaf7;
     color: #493b39;
     padding-top: 110px;
-    font-size: 17px;
+    font-size: 16px;
 }
 h1, h2, h3, h4, h5
 {
     font-family: 'Playfair Display', serif;
 }
-p { font-size: 17px;
+p { font-size: 15px;
     line-height: 1.8;
     text-align: justify;
 }
@@ -28,13 +28,13 @@ p { font-size: 17px;
 .section-tag 
 {
     color: #df6682;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 2px;
 }
 .section-heading 
 {
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 700;
     margin: 12px 0 20px;
     color: #493b39;
@@ -54,7 +54,7 @@ p { font-size: 17px;
 .navbar-brand 
 {
     font-family: 'Pacifico', cursive !important;
-    font-size: 33px !important;
+    font-size: 32px !important;
     font-weight: 400 !important;
     color: #c74768 !important;
     letter-spacing: 1px;
@@ -68,13 +68,13 @@ p { font-size: 17px;
 }
 .brand-icon 
 {
-    font-size: 28px;
+    font-size: 26px;
     margin-right: 5px;
 }
 .navbar-nav .nav-link 
 {
     font-family: 'DM Sans', sans-serif !important;
-    font-size: 22px !important;
+    font-size: 20px !important;
     font-weight: 800 !important;
     color: #633b43 !important;
     padding: 14px 19px !important;
@@ -258,7 +258,7 @@ p { font-size: 17px;
 }
 .flavour-info p 
 {
-    font-size: 17px;
+    font-size: 15px;
     color: #756966;
 }
 .flavour-info span 
