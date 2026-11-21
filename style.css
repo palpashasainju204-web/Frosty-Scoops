@@ -47,7 +47,7 @@ p { font-size: 15px;
 {
     background: #fff0f3 !important;
     padding: 8px 0 !important;
-    min-height: 85px;
+    min-height: 70px;
     box-shadow: 0 4px 15px rgba(120, 50, 65, 0.12);
     border-bottom: 2px solid #f8d5df;
 }
