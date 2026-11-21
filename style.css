@@ -10,7 +10,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     background-color: #fffaf7;
     color: #493b39;
-    padding-top: 85px;
+    padding-top: 70px;
     font-size: 16px;
 }
 h1, h2, h3, h4, h5
@@ -46,16 +46,16 @@ p { font-size: 15px;
 .navbar 
 {
     background: #fff0f3 !important;
-    height: 85px !important;
+    height: 70px !important;
     padding: 0 !important;
-    min-height: 85px !important;
+    min-height: 70px !important;
     box-shadow: 0 4px 15px rgba(120, 50, 65, 0.12);
     border-bottom: 2px solid #f8d5df;
 }
 .navbar-brand 
 {
     font-family: 'Pacifico', cursive !important;
-    font-size: 32px !important;
+    font-size: 29px !important;
     font-weight: 400 !important;
     color: #c74768 !important;
     letter-spacing: 1px;
@@ -69,16 +69,16 @@ p { font-size: 15px;
 }
 .brand-icon 
 {
-    font-size: 28px;
+    font-size: 25px;
     margin-right: 5px;
 }
 .navbar-nav .nav-link 
 {
     font-family: 'DM Sans', sans-serif !important;
     font-size: 16px !important;
-    font-weight: 700 !important;
+    font-weight: 750 !important;
     color: #633b43 !important;
-    padding: 12px 15px !important;
+    padding: 9px 13px !important;
     margin: 0 5px;
     border-radius: 30px;
     transition: all 0.3s ease;
