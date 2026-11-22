@@ -416,7 +416,7 @@ p { font-size: 15px;
 .footer-bottom p {
     margin: 0;
     font-size: 11px;
-    text-align: center;
+    text-align: center !important;
 }
 /* =========================
    CONTACT PAGE
