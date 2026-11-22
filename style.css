@@ -332,30 +332,33 @@ p { font-size: 15px;
 ========================= */
 .offer-section 
 {
-    padding: 80px 20px;
+    padding: 45px 20px;
     background: #df6682;
     color: white;
 }
 .offer-section span 
 {
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 .offer-section h2 
 {
-    font-size: 45px;
-    margin: 20px 0;
+    font-size: 38px;
+    margin: 12px 0;
     color: white;
 }
 .offer-section p 
 {
-    text-align: center;
+   font-size:14px;
+   margin-bottom:18px;
+   text-align: center;
 }
 .offer-section .btn 
 {
-    padding: 12px 25px;
+    padding: 10px 23px;
     border-radius: 30px;
+   font-size:14px;
     font-weight: 700;
 }
 /* =========================
