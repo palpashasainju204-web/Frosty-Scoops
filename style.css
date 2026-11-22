@@ -365,26 +365,31 @@ p { font-size: 15px;
 {
     background: #302725;
     color: white;
-    padding: 60px 0 20px;
+    padding: 50px 0 18px;
 }
+.footer h3
+{ font-size:23px;}
+.footer h5
+{ font-size:17px;}
 .footer h3,
 .footer h5 
 {
     color: #ffb8c9;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .footer p 
 {
     color: #ddd0cd;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .footer a 
 {
     display: block;
     text-decoration: none;
     color: #ddd0cd;
-    margin-bottom: 12px;
-    font-size: 16px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 .footer a:hover 
 {
@@ -398,6 +403,7 @@ p { font-size: 15px;
 {
     text-align: center;
     margin: 0;
+    font-size: 13px
 }
 /* =========================
    CONTACT PAGE
