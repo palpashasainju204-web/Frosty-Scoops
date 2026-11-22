@@ -373,7 +373,7 @@ p { font-size: 15px;
 {
     background: #302725;
     color: white;
-    padding: 35px 0 12px;
+    padding: 25px 0 10px;
 }
 .footer h3
 { font-size:21px !important;}
@@ -390,14 +390,14 @@ p { font-size: 15px;
     color: #ddd0cd;
     font-size: 12px !important;
     line-height: 1.5;
-   margin-bottom: 8px;
+   margin-bottom: 6px;
 }
 .footer a 
 {
     display: block;
     text-decoration: none;
     color: #ddd0cd;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
     font-size: 12px !important;
 }
 .footer a:hover 
@@ -416,7 +416,7 @@ p { font-size: 15px;
 {
     text-align: center;
     margin: 0;
-    font-size: 12px;
+    font-size: 11px;
 }
 /* =========================
    CONTACT PAGE
