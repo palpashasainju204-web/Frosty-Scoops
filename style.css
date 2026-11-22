@@ -390,7 +390,7 @@ p { font-size: 15px;
     color: #ddd0cd;
     font-size: 12px !important;
     line-height: 1.5;
-   margin-bottom:10px;
+   margin-bottom: 8px;
 }
 .footer a 
 {
@@ -406,7 +406,7 @@ p { font-size: 15px;
 }
 .footer hr
 {
-   margin:18px 0 12px;
+   margin:15px 0 10px;
 }
 .footer-bottom 
 {
