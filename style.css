@@ -366,45 +366,44 @@ p { font-size: 15px;
    font-size:12px;
     font-weight: 600;
 }
-
-/* =========================
-   FOOTER
-========================= */
-
+/* ===== COMPACT AND CONSISTENT FOOTER ===== */
 .footer {
     background: #302725;
     color: white;
-    padding: 22px 0 8px;
+    padding: 20px 0 8px;
 }
 
 .footer .row {
-    row-gap: 12px !important;
+    align-items: flex-start;
+}
+
+.footer h3,
+.footer h5 {
+    color: #ffb8c9;
+    margin-bottom: 8px;
 }
 
 .footer h3 {
     font-size: 21px !important;
-    margin-bottom: 8px;
 }
 
 .footer h5 {
     font-size: 16px !important;
-    margin-bottom: 10px;
-    color: #ffb8c9;
 }
 
 .footer p {
     color: #ddd0cd;
     font-size: 12px !important;
     line-height: 1.5;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
 }
 
 .footer a {
     display: block;
     text-decoration: none;
     color: #ddd0cd;
-    margin-bottom: 4px;
     font-size: 12px !important;
+    margin-bottom: 4px;
 }
 
 .footer a:hover {
