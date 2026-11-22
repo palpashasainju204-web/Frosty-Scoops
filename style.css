@@ -277,21 +277,21 @@ p { font-size: 15px;
 .flavour-banner 
 {
     background: #fbe2e8;
-    padding: 90px 20px;
+    padding: 350px 20px;
     margin-top: 0;
 }
 .flavour-banner span
 {
     color: #df6682;
     font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
 .flavour-banner h1
 {
-    font-size: 48px;
+    font-size: 36px;
     color: #493b39;
-    margin: 20px 0;
+    margin: 8px 0;
 }
 .flavour-banner p 
 {
@@ -299,6 +299,7 @@ p { font-size: 15px;
     margin: auto;
     text-align: center;
     color: #756966;
+    font-size:14px;
 }
 /* =========================
    WHY CHOOSE US
