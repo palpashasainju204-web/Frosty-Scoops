@@ -123,7 +123,7 @@ p { font-size: 15px;
             rgba(40, 24, 25, 0.75),
             rgba(40, 24, 25, 0.15)
         ),
-        url("https://images.unsplash.com/photo-1563805042-7684c019e1cb");
+        url("bg.jpg");
     background-size: cover;
     background-position: center;
     padding: 80px 9%;
