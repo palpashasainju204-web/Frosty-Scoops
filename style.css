@@ -413,14 +413,10 @@ p { font-size: 15px;
 .footer hr {
     margin: 10px 0 8px;
 }
-
-.footer-bottom {
-    text-align: center;
-}
-
 .footer-bottom p {
     margin: 0;
     font-size: 11px;
+    text-align: center;
 }
 /* =========================
    CONTACT PAGE
