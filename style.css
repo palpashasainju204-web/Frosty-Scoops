@@ -543,15 +543,26 @@ p { font-size: 15px;
     .welcome-image {
         height: 300px;
     }
+    /* Hot pink section */
+    .offer-section {
+        padding: 18px 15px;
+    }
     .offer-section h2 {
-        font-size: 34px;
+        font-size: 25px;
+        margin: 5px 0;
     }
+    .offer-section p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+   /* Banner */
     .flavour-banner {
-        padding: 22px 15px;
+        padding: 18px 15px;
     }
-    .flavor-banner h1 {
-        font-size: 35px;
+    .flavour-banner h1 {
+        font-size: 30px;
     }
+
     .contact-section {
         padding: 55px 0;
     }
@@ -559,3 +570,12 @@ p { font-size: 15px;
         padding: 25px;
     }
 
+    /* Footer */
+    .footer {
+        padding: 30px 0 12px;
+    }
+    .footer p,
+    .footer a {
+        font-size: 13px;
+    }
+}
