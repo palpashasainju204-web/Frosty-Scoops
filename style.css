@@ -524,82 +524,98 @@ body {
     max-width: 750px;
 }
 
-@media (max-width: 768px) 
-{
-    body {
-        padding-top: 90px;
-    }
+@media (max-width: 768px) {
     .navbar {
-        min-height: 90px;
+        height: 90px !important;
+        padding: 0 10px !important;
     }
-.navbar-collapse{
-        background: #fff0f3;
-        padding:20px 10px;
+
+    .navbar-brand {
+    margin-right: 0;
+}
+
+.brand-logo 
+{
+    height: 65px;
+    max-width: 150px;
+}
+    .navbar-collapse 
+    {
+        background: #fffaf7;
+        padding: 14px 16px 20px;
         width: 100%;
         position: absolute;
         top: 100%;
-        left:0;
-        z-index:1000;
-        
+        left: 0;
+        z-index: 1000;
+        border-top: 1px solid #f2dce2;
+        box-shadow: 0 8px 20px rgba(120, 50, 65, 0.08);
     }
-    .navbar-brand {
-        font-size: 25px !important;
-    }
+
     .navbar-nav {
-        padding: 15px;
-        gap:15px;
+        padding: 10px 0;
+        gap: 10px;
     }
-    .nav-link {
+
+    .navbar-nav .nav-link {
         display: flex;
         align-items: center;
-        gap:15px;
-        font-size:22px;
-        margin-left: 0;
-        padding: 12px;
+        gap: 12px;
+        font-size: 16px !important;
+        padding: 10px 8px !important;
+        border-right: none !important;
     }
-    .nav-link i {
-        color:#df6682
-        width:30px;
+
+    .navbar-nav .nav-link i {
+        color: #df6682;
+        width: 24px;
     }
-    .navbar-nav .nav-link {
-        margin-left: 0;
-        padding: 10px 0 !important;
-    }
+
     .hero {
         min-height: 520px;
         padding: 60px 25px;
     }
+
     .hero h1 {
         font-size: 43px;
     }
+
     .hero p {
         font-size: 16px;
     }
+
     .section-space {
         padding: 55px 0;
     }
+
     .section-heading {
         font-size: 30px;
     }
+
     .welcome-image {
         height: 300px;
     }
+
     /* Hot pink section */
     .offer-section {
         padding: 18px 15px;
     }
+
     .offer-section h2 {
         font-size: 25px;
         margin: 5px 0;
     }
+
     .offer-section p {
         font-size: 13px;
         margin-bottom: 10px;
     }
-   /* Banner */
+
+    /* Banner */
     .flavour-banner {
         padding: 18px 15px;
     }
+
     .flavour-banner h1 {
         font-size: 30px;
     }
@@ -607,6 +623,7 @@ body {
     .contact-section {
         padding: 55px 0;
     }
+
     .contact-form {
         padding: 25px;
     }
@@ -615,6 +632,7 @@ body {
     .footer {
         padding: 30px 0 12px;
     }
+
     .footer p,
     .footer a {
         font-size: 13px;
