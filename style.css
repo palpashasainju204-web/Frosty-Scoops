@@ -48,7 +48,7 @@ body {
 }
 
 .navbar {
-    background: rgba(255, 240, 243, 0.45) !important;
+    background: rgba(255, 240, 243, 0.85) !important;
     min-height: 75px !important;
     padding: 0 !important;
     box-shadow: 0 3px 12px rgba(120, 50, 65, 0.08);
