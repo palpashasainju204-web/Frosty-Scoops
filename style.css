@@ -539,18 +539,17 @@ body {
     height: 65px;
     max-width: 150px;
 }
-    .navbar-collapse 
-    {
-        background: #fffaf7;
-        padding: 14px 16px 20px;
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 1000;
-        border-top: 1px solid #f2dce2;
-        box-shadow: 0 8px 20px rgba(120, 50, 65, 0.08);
-    }
+.navbar-collapse {
+    background: rgba(255, 240, 243, 0.85);
+    padding: 14px 16px 20px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    border-top: 1px solid #f2dce2;
+    box-shadow: 0 8px 20px rgba(120, 50, 65, 0.08);
+}
 
     .navbar-nav {
         padding: 10px 0;
