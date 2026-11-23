@@ -43,35 +43,40 @@ p { font-size: 15px;
 /* =========================
    NAVIGATION BAR
 ========================= */
-.navbar 
-{
-    background: #fff0f3 !important;
-    height: 70px !important;
-    padding: 0 !important;
-    min-height: 70px !important;
-    box-shadow: 0 4px 15px rgba(120, 50, 65, 0.12);
-    border-bottom: 2px solid #f8d5df;
+body {
+    padding-top: 90px;
 }
-.navbar-brand 
-{
+
+.navbar {
+    background: rgba(255, 240, 243, 0.45) !important;
+    min-height: 75px !important;
+    padding: 0 !important;
+    box-shadow: 0 3px 12px rgba(120, 50, 65, 0.08);
+    border-bottom: 1px solid #f2dce2;
+}
+.brand-name {
     font-family: 'Pacifico', cursive !important;
+    font-weight: 400 !important;
+    color: #c74768 !important;
+    transform: translateY(5px);
+    display: inline-block;
+}
+.navbar-brand {
+  
     font-size: 29px !important;
     font-weight: 400 !important;
     color: #c74768 !important;
     letter-spacing: 1px;
     text-decoration: none;
+} 
+.brand-logo {
+    height: 65px;
+    width: auto;
+    max-width: 190px;
+    object-fit: contain;
 }
-.brand-name 
-{
-    font-family: 'Pacifico', cursive !important;
-    font-weight: 400 !important;
-    color: #c74768 !important;
-}
-.brand-icon 
-{
-    font-size: 25px;
-    margin-right: 5px;
-}
+
+/* NAVIGATION LINKS */
 .navbar-nav .nav-link 
 {
     font-family: 'DM Sans', sans-serif !important;
@@ -108,6 +113,11 @@ p { font-size: 15px;
 {
     width: 28px;
     height: 28px;
+}
+
+.navbar-toggler-icon {
+    width: 24px;
+    height: 24px;
 }
 /* =========================
    HERO SECTION
